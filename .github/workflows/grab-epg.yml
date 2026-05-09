@@ -13,8 +13,64 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       
-      - name: Pull iptv-org/epg Docker image
-        run: docker pull ghcr.io/iptv-org/epg:master
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      
+      - name: Clone iptv-org/epg SDK
+        run: |
+          git clone --depth 1 https://github.com/iptv-org/epg.git /tmp/epg-sdk
+          cd /tmp/epg-sdk
+          npm install
+      
+      - name: Apply memory leak patch
+        run: |
+          python3 << 'PATCH_EOF'
+          from pathlib import Path
+          
+          config_file = Path("/tmp/epg-sdk/sites/i.mjh.nz/i.mjh.nz.config.js")
+          
+          with open(config_file, 'r') as f:
+              content = f.readlines()
+          
+          # Backup
+          backup = config_file.with_suffix('.js.bak')
+          with open(backup, 'w') as f:
+              f.writelines(content)
+          
+          # Apply patches
+          patched = []
+          api_found = parse_found = False
+          
+          for line in content:
+              patched.append(line)
+              
+              if not api_found and "const API_ENDPOINT" in line:
+                  api_found = True
+                  patched.append("\n// PATCH: Global cache to prevent re-parsing same XML\n")
+                  patched.append("const parsedContentCache = new Map()\n")
+              
+              if not parse_found and "parser.parse(content)" in line:
+                  parse_found = True
+                  patched.pop()  # Remove original line
+                  patched.append("    const cacheKey = content.substring(0, 100)\n")
+                  patched.append("    let data = parsedContentCache.get(cacheKey)\n")
+                  patched.append("    if (!data) {\n")
+                  patched.append("      data = parser.parse(content)\n")
+                  patched.append("      parsedContentCache.set(cacheKey, data)\n")
+                  patched.append("      if (parsedContentCache.size > 50) {\n")
+                  patched.append("        const firstKey = parsedContentCache.keys().next().value\n")
+                  patched.append("        parsedContentCache.delete(firstKey)\n")
+                  patched.append("      }\n")
+                  patched.append("    }\n")
+          
+          with open(config_file, 'w') as f:
+              f.writelines(patched)
+          
+          print(f"✓ Patch applied: API={api_found}, Parse={parse_found}")
+          assert api_found and parse_found, "Patch failed"
+          PATCH_EOF
       
       - name: Split channels into batches of 10
         run: |
@@ -49,14 +105,12 @@ jobs:
             batch_count=$((batch_count + 1))
             echo "Processing batch $batch_count: $batch_file"
             
-            docker run --rm \
-              -v $PWD:/data \
-              ghcr.io/iptv-org/epg:master \
-              npm run grab -- \
-                --channels=/data/$batch_file \
-                --output=/data/guide-$batch_file \
-                --days=1 \
-                --timeout=60000
+            cd /tmp/epg-sdk
+            npm run grab -- \
+              --channels=$GITHUB_WORKSPACE/$batch_file \
+              --output=$GITHUB_WORKSPACE/guide-$batch_file \
+              --days=1 \
+              --timeout=60000
             
             echo "Batch $batch_count complete. Sleeping 10s to force GC..."
             sleep 10
@@ -70,29 +124,24 @@ jobs:
           import xml.etree.ElementTree as ET
           import glob
           
-          # Parse all batch guide files
           batch_files = sorted(glob.glob('guide-channels-batch*.xml'))
           print(f"Merging {len(batch_files)} batch files")
           
-          # Create root TV element
           tv = ET.Element('tv')
           tv.set('generator-info-name', 'mimenu-epg-batched')
           tv.set('generator-info-url', 'https://github.com/amigocarellc-oss/mimenu-epg-guides')
           
-          channels_merged = 0
-          programmes_merged = 0
+          channels_merged = programmes_merged = 0
           
           for batch_file in batch_files:
             try:
               tree = ET.parse(batch_file)
               root = tree.getroot()
               
-              # Merge channel elements
               for channel in root.findall('channel'):
                 tv.append(channel)
                 channels_merged += 1
               
-              # Merge programme elements
               for programme in root.findall('programme'):
                 tv.append(programme)
                 programmes_merged += 1
@@ -101,12 +150,11 @@ jobs:
             except Exception as e:
               print(f"ERROR merging {batch_file}: {e}")
           
-          # Write merged guide.xml
           tree = ET.ElementTree(tv)
           ET.indent(tree, space='  ')
           tree.write('guide.xml', encoding='UTF-8', xml_declaration=True)
           
-          print(f"Merged guide.xml: {channels_merged} channels, {programmes_merged} programmes")
+          print(f"✓ guide.xml: {channels_merged} channels, {programmes_merged} programmes")
           EOF
       
       - name: Verify guide.xml generated
@@ -127,6 +175,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to guide.xml"
           else
-            git commit -m "EPG update $(date -u +%Y-%m-%d) - batched"
+            git commit -m "EPG update $(date -u +%Y-%m-%d) - patched SDK"
             git push
           fi
