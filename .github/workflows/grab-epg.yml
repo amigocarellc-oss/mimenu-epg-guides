@@ -24,65 +24,53 @@ jobs:
           cd /tmp/epg-sdk
           npm install
       
-      - name: Apply memory leak patch
-        run: |
-          python3 << 'PATCH_EOF'
-          from pathlib import Path
-          
-          config_file = Path("/tmp/epg-sdk/sites/i.mjh.nz/i.mjh.nz.config.js")
-          
-          with open(config_file, 'r') as f:
-              content = f.readlines()
-          
-          # Backup
-          backup = config_file.with_suffix('.js.bak')
-          with open(backup, 'w') as f:
-              f.writelines(content)
-          
-          # Apply patches
-          patched = []
-          api_found = parse_found = False
-          
-          for line in content:
-              patched.append(line)
-              
-              if not api_found and "const API_ENDPOINT" in line:
-                  api_found = True
-                  patched.append("\n// PATCH: Global cache to prevent re-parsing same XML\n")
-                  patched.append("const parsedContentCache = new Map()\n")
-              
-              if not parse_found and "parser.parse(content)" in line:
-                  parse_found = True
-                  patched.pop()  # Remove original line
-                  patched.append("    const cacheKey = content.substring(0, 100)\n")
-                  patched.append("    let data = parsedContentCache.get(cacheKey)\n")
-                  patched.append("    if (!data) {\n")
-                  patched.append("      data = parser.parse(content)\n")
-                  patched.append("      parsedContentCache.set(cacheKey, data)\n")
-                  patched.append("      if (parsedContentCache.size > 50) {\n")
-                  patched.append("        const firstKey = parsedContentCache.keys().next().value\n")
-                  patched.append("        parsedContentCache.delete(firstKey)\n")
-                  patched.append("      }\n")
-                  patched.append("    }\n")
-          
-          with open(config_file, 'w') as f:
-              f.writelines(patched)
-          
-          print(f"✓ Patch applied: API={api_found}, Parse={parse_found}")
-          assert api_found and parse_found, "Patch failed"
-          PATCH_EOF
-      
-      - name: Split channels into batches of 10
+      - name: Filter channels.xml (exclude problematic sites)
         run: |
           python3 << 'EOF'
           import xml.etree.ElementTree as ET
           
+          # Sites with known memory leak issues in iptv-org/epg SDK
+          EXCLUDED_SITES = {'i.mjh.nz', 'epgshare01.online'}
+          
           tree = ET.parse('channels.xml')
+          channels = tree.findall('channel')
+          
+          original_count = len(channels)
+          print(f"Original channels: {original_count}")
+          
+          # Filter out excluded sites
+          filtered = [ch for ch in channels if ch.get('site') not in EXCLUDED_SITES]
+          excluded = [ch for ch in channels if ch.get('site') in EXCLUDED_SITES]
+          
+          print(f"Filtered channels: {len(filtered)}")
+          print(f"Excluded channels: {len(excluded)}")
+          
+          for ch in excluded:
+              print(f"  EXCLUDED: {ch.get('site')} - {ch.text}")
+          
+          # Write filtered channels
+          root = ET.Element('channels')
+          for ch in filtered:
+              root.append(ch)
+          
+          filtered_tree = ET.ElementTree(root)
+          ET.indent(filtered_tree, space='  ')
+          filtered_tree.write('channels-filtered.xml', encoding='UTF-8', xml_declaration=True)
+          
+          print(f"✓ channels-filtered.xml created with {len(filtered)} channels")
+          EOF
+      
+      - name: Split channels into batches of 20
+        run: |
+          python3 << 'EOF'
+          import xml.etree.ElementTree as ET
+          
+          tree = ET.parse('channels-filtered.xml')
           channels = tree.findall('channel')
           
           print(f"Total channels: {len(channels)}")
           
-          batch_size = 10
+          batch_size = 20
           for i in range(0, len(channels), batch_size):
             batch = channels[i:i+batch_size]
             root = ET.Element('channels')
@@ -98,25 +86,40 @@ jobs:
             print(f"Created {filename} with {len(batch)} channels")
           EOF
       
-      - name: Grab EPG per batch with sleep
+      - name: Grab EPG per batch
         run: |
           batch_count=0
+          failed_batches=0
+          
           for batch_file in channels-batch*.xml; do
             batch_count=$((batch_count + 1))
+            echo "============================================"
             echo "Processing batch $batch_count: $batch_file"
+            echo "============================================"
             
             cd /tmp/epg-sdk
-            npm run grab -- \
+            
+            # Continue even if a batch fails
+            if npm run grab -- \
               --channels=$GITHUB_WORKSPACE/$batch_file \
               --output=$GITHUB_WORKSPACE/guide-$batch_file \
-              --days=1 \
-              --timeout=60000
+              --days=2 \
+              --timeout=60000; then
+              echo "✓ Batch $batch_count succeeded"
+            else
+              echo "✗ Batch $batch_count failed (continuing)"
+              failed_batches=$((failed_batches + 1))
+            fi
             
-            echo "Batch $batch_count complete. Sleeping 10s to force GC..."
-            sleep 10
+            cd $GITHUB_WORKSPACE
+            sleep 5
           done
           
-          echo "All batches processed: $batch_count"
+          echo "============================================"
+          echo "Batches processed: $batch_count"
+          echo "Failed batches: $failed_batches"
+          echo "============================================"
+        continue-on-error: true
       
       - name: Merge batch guides into single guide.xml
         run: |
@@ -128,7 +131,7 @@ jobs:
           print(f"Merging {len(batch_files)} batch files")
           
           tv = ET.Element('tv')
-          tv.set('generator-info-name', 'mimenu-epg-batched')
+          tv.set('generator-info-name', 'mimenu-epg')
           tv.set('generator-info-url', 'https://github.com/amigocarellc-oss/mimenu-epg-guides')
           
           channels_merged = programmes_merged = 0
@@ -146,9 +149,9 @@ jobs:
                 tv.append(programme)
                 programmes_merged += 1
               
-              print(f"Merged {batch_file}")
+              print(f"  Merged {batch_file}")
             except Exception as e:
-              print(f"ERROR merging {batch_file}: {e}")
+              print(f"  ERROR merging {batch_file}: {e}")
           
           tree = ET.ElementTree(tv)
           ET.indent(tree, space='  ')
@@ -165,7 +168,7 @@ jobs:
           fi
           echo "guide.xml size: $(wc -c < guide.xml) bytes"
           echo "guide.xml lines: $(wc -l < guide.xml)"
-          head -50 guide.xml
+          head -30 guide.xml
       
       - name: Commit and push guide.xml
         run: |
@@ -175,6 +178,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to guide.xml"
           else
-            git commit -m "EPG update $(date -u +%Y-%m-%d) - patched SDK"
+            git commit -m "EPG update $(date -u +%Y-%m-%d)"
             git push
           fi
