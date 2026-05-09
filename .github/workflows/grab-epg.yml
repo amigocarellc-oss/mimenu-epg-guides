@@ -16,16 +16,98 @@ jobs:
       - name: Pull iptv-org/epg Docker image
         run: docker pull ghcr.io/iptv-org/epg:master
       
-      - name: Run EPG grab
+      - name: Split channels into batches of 30
         run: |
-          docker run --rm \
-            -v $PWD:/data \
-            ghcr.io/iptv-org/epg:master \
-            npm run grab -- \
-              --channels=/data/channels.xml \
-              --output=/data/guide.xml \
-              --days=3 \
-              --timeout=60000
+          python3 << 'EOF'
+          import xml.etree.ElementTree as ET
+          
+          tree = ET.parse('channels.xml')
+          channels = tree.findall('channel')
+          
+          print(f"Total channels: {len(channels)}")
+          
+          batch_size = 30
+          for i in range(0, len(channels), batch_size):
+            batch = channels[i:i+batch_size]
+            root = ET.Element('channels')
+            root.extend(batch)
+            
+            batch_num = i // batch_size
+            filename = f'channels-batch{batch_num:02d}.xml'
+            
+            tree = ET.ElementTree(root)
+            ET.indent(tree, space='  ')
+            tree.write(filename, encoding='UTF-8', xml_declaration=True)
+            
+            print(f"Created {filename} with {len(batch)} channels")
+          EOF
+      
+      - name: Grab EPG per batch with sleep
+        run: |
+          batch_count=0
+          for batch_file in channels-batch*.xml; do
+            batch_count=$((batch_count + 1))
+            echo "Processing batch $batch_count: $batch_file"
+            
+            docker run --rm \
+              -v $PWD:/data \
+              ghcr.io/iptv-org/epg:master \
+              npm run grab -- \
+                --channels=/data/$batch_file \
+                --output=/data/guide-$batch_file \
+                --days=3 \
+                --timeout=60000
+            
+            echo "Batch $batch_count complete. Sleeping 10s to force GC..."
+            sleep 10
+          done
+          
+          echo "All batches processed: $batch_count"
+      
+      - name: Merge batch guides into single guide.xml
+        run: |
+          python3 << 'EOF'
+          import xml.etree.ElementTree as ET
+          import glob
+          
+          # Parse all batch guide files
+          batch_files = sorted(glob.glob('guide-channels-batch*.xml'))
+          print(f"Merging {len(batch_files)} batch files")
+          
+          # Create root TV element
+          tv = ET.Element('tv')
+          tv.set('generator-info-name', 'mimenu-epg-batched')
+          tv.set('generator-info-url', 'https://github.com/amigocarellc-oss/mimenu-epg-guides')
+          
+          channels_merged = 0
+          programmes_merged = 0
+          
+          for batch_file in batch_files:
+            try:
+              tree = ET.parse(batch_file)
+              root = tree.getroot()
+              
+              # Merge channel elements
+              for channel in root.findall('channel'):
+                tv.append(channel)
+                channels_merged += 1
+              
+              # Merge programme elements
+              for programme in root.findall('programme'):
+                tv.append(programme)
+                programmes_merged += 1
+              
+              print(f"Merged {batch_file}")
+            except Exception as e:
+              print(f"ERROR merging {batch_file}: {e}")
+          
+          # Write merged guide.xml
+          tree = ET.ElementTree(tv)
+          ET.indent(tree, space='  ')
+          tree.write('guide.xml', encoding='UTF-8', xml_declaration=True)
+          
+          print(f"Merged guide.xml: {channels_merged} channels, {programmes_merged} programmes")
+          EOF
       
       - name: Verify guide.xml generated
         run: |
@@ -35,6 +117,7 @@ jobs:
           fi
           echo "guide.xml size: $(wc -c < guide.xml) bytes"
           echo "guide.xml lines: $(wc -l < guide.xml)"
+          head -50 guide.xml
       
       - name: Commit and push guide.xml
         run: |
@@ -44,6 +127,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to guide.xml"
           else
-            git commit -m "EPG update $(date -u +%Y-%m-%d)"
+            git commit -m "EPG update $(date -u +%Y-%m-%d) - batched"
             git push
           fi
