@@ -1,0 +1,13 @@
+# Node modules from iptv-org/epg if run locally
+node_modules/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak

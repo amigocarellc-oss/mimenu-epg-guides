@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="CBSSportsGolazoNetwork.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-6571186d9a46917c0a8f2ddd">DHD | CBS SPORTS GOLAZO</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="CBSSportsNetworkUSA.us" site_id="cbs-sports-network-us">DHD | CBS SPORTS NETWORK</channel>
+  <channel site="meuguia.tv" lang="pt" xmltv_id="ESPN.br" site_id="ESB">DHD | ESPN 1 BR</channel>
+  <channel site="dsmart.com.tr" lang="tr" xmltv_id="NBATV.us" site_id="58d29bb0eefad3db9c60626e">DHD | NBA TV</channel>
+  <channel site="entertainment.ie" lang="en" xmltv_id="SkySportsGolf.uk" site_id="sky-sports-golf">DHD | SKY SPORTS GOLF HD</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="TennisChannel.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-65944d40cbc51b25e5070a18">DHD | TENNIS CHANNEL US</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="TNTSports1.uk" site_id="1804/tnt-sports-1">DHD | TNT Sports 1 UK</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="TNTSports2.uk" site_id="1806/tnt-sports-2">DHD | TNT Sports 2 UK</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="TNTSports3.uk" site_id="1952/tnt-sports-3">DHD | TNT Sports 3 UK</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="TNTSports4.uk" site_id="1492/tnt-sports-4">DHD | TNT Sports 4 UK</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="TUDN.mx" site_id="tudn_mexico">DHD | ZONA TUDN MX</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="BetisTV.es" site_id="1019">ES| BETIS FHD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="ElToroTV.es" site_id="11049">ES| EL TORO TV FHD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="ElToroTV.es" site_id="11049">ES| EL TORO TV HD</channel>
+  <channel site="tataplay.com" lang="en" xmltv_id="Eurosport.fr" site_id="693">ES| EUROSPORT 1 FHD</channel>
+  <channel site="tataplay.com" lang="en" xmltv_id="Eurosport.fr" site_id="693">ES| EUROSPORT 1 HD</channel>
+  <channel site="tataplay.com" lang="en" xmltv_id="Eurosport.fr" site_id="693">ES| EUROSPORT 1 SD</channel>
+  <channel site="tataplay.com" lang="en" xmltv_id="Eurosport.fr" site_id="693">ES| EUROSPORT 2 FHD</channel>
+  <channel site="tataplay.com" lang="en" xmltv_id="Eurosport.fr" site_id="693">ES| EUROSPORT 2 HD</channel>
+  <channel site="tataplay.com" lang="en" xmltv_id="Eurosport.fr" site_id="693">ES| EUROSPORT 2 SD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="Esport3.es" site_id="2038">ES| Esport3 HD</channel>
+  <channel site="distro.tv" lang="en" xmltv_id="FUELTV.pt" site_id="81581">ES| FUEL TV FHD</channel>
+  <channel site="neo.io" lang="sl" xmltv_id="BKTV.si" site_id="bk-tv">ES| LA 1 FHD [BK]</channel>
+  <channel site="neo.io" lang="sl" xmltv_id="BKTV.si" site_id="bk-tv">ES| LA 1 HD [BK]</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="GolfChannel.us" site_id="golf-cnl-us">ES| M+ GOLF 2 FHD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="GolfChannel.us" site_id="golf-cnl-us">ES| M+ GOLF 2 HD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="GolfChannel.us" site_id="golf-cnl-us">ES| M+ GOLF 2 SD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="GolfChannel.us" site_id="golf-cnl-us">ES| M+ GOLF FHD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="GolfChannel.us" site_id="golf-cnl-us">ES| M+ GOLF HD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="GolfChannel.us" site_id="golf-cnl-us">ES| M+ GOLF HEVC</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="GolfChannel.us" site_id="golf-cnl-us">ES| M+ GOLF SD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| M+ LALIGA 2 FHD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| M+ LALIGA 2 HD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| M+ LALIGA 2 SD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| M+ LALIGA 3 FHD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| M+ LALIGA 3 HD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| M+ LALIGA 4 FHD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| M+ LALIGA 4 HD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| M+ LALIGA 5 FHD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| M+ LALIGA 5 HD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| M+ LALIGA FHD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| M+ LALIGA HD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| M+ LALIGA HEVC</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| M+ LALIGA SD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaHypermotion2.es" site_id="11084">ES| M+ LALIGA TV HYPERMOTION FHD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaHypermotion2.es" site_id="11084">ES| M+ LALIGA TV HYPERMOTION HD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaHypermotion2.es" site_id="11084">ES| M+ LALIGA TV HYPERMOTION SD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeones2porMovistarPlusPlus.es" site_id="1051">ES| M+ LIGA DE CAMPEONES 2 FHD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeones2porMovistarPlusPlus.es" site_id="1051">ES| M+ LIGA DE CAMPEONES 2 HD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeones2porMovistarPlusPlus.es" site_id="1051">ES| M+ LIGA DE CAMPEONES 2 HEVC</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeones2porMovistarPlusPlus.es" site_id="1051">ES| M+ LIGA DE CAMPEONES 2 SD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeones3porMovistarPlusPlus.es" site_id="1052">ES| M+ LIGA DE CAMPEONES 3 FHD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeones3porMovistarPlusPlus.es" site_id="1052">ES| M+ LIGA DE CAMPEONES 3 HD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeones3porMovistarPlusPlus.es" site_id="1052">ES| M+ LIGA DE CAMPEONES 3 HEVC</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeones3porMovistarPlusPlus.es" site_id="1052">ES| M+ LIGA DE CAMPEONES 3 SD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeones4porMovistarPlusPlus.es" site_id="1053">ES| M+ LIGA DE CAMPEONES 4 FHD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeones4porMovistarPlusPlus.es" site_id="1053">ES| M+ LIGA DE CAMPEONES 4 HD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeones4porMovistarPlusPlus.es" site_id="1053">ES| M+ LIGA DE CAMPEONES 4 HEVC</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeones4porMovistarPlusPlus.es" site_id="1053">ES| M+ LIGA DE CAMPEONES 4 SD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeones5porMovistarPlusPlus.es" site_id="1054">ES| M+ LIGA DE CAMPEONES 5 FHD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeones5porMovistarPlusPlus.es" site_id="1054">ES| M+ LIGA DE CAMPEONES 5 HD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeones5porMovistarPlusPlus.es" site_id="1054">ES| M+ LIGA DE CAMPEONES 5 SD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeones6porMovistarPlusPlus.es" site_id="1055">ES| M+ LIGA DE CAMPEONES 6 HD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeones7porMovistarPlusPlus.es" site_id="1056">ES| M+ LIGA DE CAMPEONES 7 HD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeones8porMovistarPlusPlus.es" site_id="11036">ES| M+ LIGA DE CAMPEONES 8 HD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeones9porMovistarPlusPlus.es" site_id="1096">ES| M+ LIGA DE CAMPEONES 9 HD</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="RealMadridTV.es" site_id="90442">ES| REAL MADRID TV FHD</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="RealMadridTV.es" site_id="90442">ES| REAL MADRID TV HD</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="RealMadridTV.es" site_id="90442">ES| REAL MADRID TV SD</channel>
+  <channel site="i.mjh.nz" lang="de" xmltv_id="RedBullTV.at" site_id="PlutoTV/de#5e7cb84a172a0f0007da69e4">ES| RED BULL TV HD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="Teledeporte.es" site_id="teledeporte">ES| TELEDEPORTE FHD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="Teledeporte.es" site_id="teledeporte">ES| TELEDEPORTE HD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="Teledeporte.es" site_id="teledeporte">ES| TELEDEPORTE SD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="Ubeat.es" site_id="11061">ES| UBEAT FHD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="Ubeat.es" site_id="11061">ES| UBEAT HD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="FoxDeportes.us" site_id="fox_deportes">DHD |  FOX DEPORTES USA</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="FoxSoccerPlus.us" site_id="fox-soccer-plus-hd/11551">DHD |  FOX SOCCER PLUS USA</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="FoxSports1.us" site_id="9233008440">DHD |  FOX SPORTS 1 USA</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="FoxSports2.us" site_id="9200009884">DHD |  FOX SPORTS 2 USA</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSPORTSXTRA.us" site_id="1ACADCF1-DFAC-480B-872C-53D51FE1B45D">DHD | BEIN SPORTS XTRA</channel>
+  <channel site="directv.com.uy" lang="es" xmltv_id="DirecTVSports2.us" site_id="612#DTS2">DHD | DIRECTV SPORTS 2</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">DHD | ESPN 1 USA</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPNDeportes.us" site_id="espn_deportes">DHD | ESPN DEPORTES USA</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="ESPNPremium.ar" site_id="ar#fox-sports-premium">DHD | ESPN PREMIUM ARG</channel>
+  <channel site="canalplus.com" lang="fr" xmltv_id="Eurosport2.fr" site_id="#436">DHD | EUROSPORT 2</channel>
+  <channel site="distro.tv" lang="en" xmltv_id="FightNetwork.ca" site_id="78919">DHD | FIGHT NETWORK</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="LaSexta.es" site_id="la_sexta">DHD | LA SEXTA</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="MarqueeSportsNetwork.us" site_id="113776">DHD | MARQUEE SPORTS NETWORK</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="MLBNetwork.us" site_id="mlb-network-us">DHD | MLB NETWORK</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="NBCUniverso.us" site_id="universo">DHD | NBC UNIVERSO</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="NFLNetwork.us" site_id="nfl-network-us">DHD | NFL NETWORK</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="NHLNetwork.us" site_id="nhl-network-us">DHD | NHL Network</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="RealMadridTV.es" site_id="90442">DHD | REAL MADRID TV</channel>
+  <channel site="tvhebdo.com" lang="fr" xmltv_id="SportsnetWorld.ca" site_id="seta/SNWL">DHD | SPORTSNET WORLD</channel>
+  <channel site="meuguia.tv" lang="pt" xmltv_id="SporTV.br" site_id="SPO">DHD | SPORTV 1 BR</channel>
+  <channel site="meuguia.tv" lang="pt" xmltv_id="SporTV2.br" site_id="SP2">DHD | SPORTV 2 BR</channel>
+  <channel site="meuguia.tv" lang="pt" xmltv_id="SporTV3.br" site_id="SP3">DHD | SPORTV 3 BR</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="TennisChannel.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-65944d40cbc51b25e5070a18">DHD | TENNIS CHANNEL T2 US</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="TNTSports.ar" site_id="ar#tnt-sports">DHD | TNT SPORTS ARG</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="TUDN.mx" site_id="tudn_mexico">DHD | TUDN MX</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="TUDN.us" site_id="tudn_estados_unidos">DHD | TUDN USA</channel>
+  <channel site="directv.com.uy" lang="es" xmltv_id="TyCSports.ar" site_id="629#TYCS">DHD | TyC  SPORTS</channel>
+  <channel site="airtelxstream.in" lang="en" xmltv_id="TheCowboyChannel.us" site_id="DISTROTV_LIVETVCHANNEL_5158">DHD | USA: THE COWBOY CHANNEL</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="WinSports.co" site_id="co#win-sports-hd">DHD | WIN SPORTS</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="YesNetwork.us" site_id="yes-network/1953">DHD | YES NETWORK</channel>
+  <channel site="canalplus.com" lang="fr" xmltv_id="Eurosport2.fr" site_id="#436">Dep | EUROSPORT 2 HD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="AdrenalinaSportsNetwork.us" site_id="adrenalina_sports_network">Dep. +3Mbps | ADRENALINA SPORTS HD</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsUSA.us" site_id="C244C48D-3B54-406A-94C9-D63B16318267">Dep. +3Mbps | BEIN SPORTS USA  HD</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN1.uk" site_id="DAZN1">Dep. +3Mbps | DAZN 1 HD</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN2.uk" site_id="DAZN2">Dep. +3Mbps | DAZN 2 HD</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN3.uk" site_id="DAZN3">Dep. +3Mbps | DAZN 3 HD</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN4.uk" site_id="DAZN4">Dep. +3Mbps | DAZN 4 HD</channel>
+  <channel site="directv.com.uy" lang="es" xmltv_id="DirecTVSports2.us" site_id="612#DTS2">Dep. +3Mbps | DIRECTV SPORTS 2 HD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">Dep. +3Mbps | ESPN 1 USA HD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN2.us" site_id="espn2-us">Dep. +3Mbps | ESPN 2 USA HD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPNDeportes.us" site_id="espn_deportes">Dep. +3Mbps | ESPN DEPORTES SD</channel>
+  <channel site="canalplus.com" lang="fr" xmltv_id="Eurosport1.fr" site_id="#101">Dep. +3Mbps | EUROSPORT 1 HD</channel>
+  <channel site="distro.tv" lang="en" xmltv_id="FightNetwork.ca" site_id="78919">Dep. +3Mbps | FIGHT NETWORK HD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="FoxDeportes.us" site_id="fox_deportes">Dep. +3Mbps | FOX DEPORTES HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="FoxSoccerPlus.us" site_id="fox-soccer-plus-hd/11551">Dep. +3Mbps | FOX SOCCER</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="MLBNetwork.us" site_id="mlb-network-us">Dep. +3Mbps | MLB NETWORK HD</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="MotorTrend.us" site_id="9233003479">Dep. +3Mbps | MOTOR TREND HD</channel>
+  <channel site="dsmart.com.tr" lang="tr" xmltv_id="NBATV.us" site_id="58d29bb0eefad3db9c60626e">Dep. +3Mbps | NBA TV HD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="NFLNetwork.us" site_id="nfl-network-us">Dep. +3Mbps | NFL NETWORK HD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="SkySports16.mx" site_id="sky_sports_16">Dep. +3Mbps | SKY SPORTS 16 HD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="TUDN.mx" site_id="tudn_mexico">Dep. +3Mbps | TUDN MX  HD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="TUDN.us" site_id="tudn_estados_unidos">Dep. +3Mbps | TUDN USA SD</channel>
+  <channel site="directv.com.uy" lang="es" xmltv_id="TyCSports.ar" site_id="629#TYCS">Dep. +3Mbps | TYC SPORTS HD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 032: #9 Florida State vs. South Florida (Baseball) (02.18 5PM ET/2PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 033: Charlotte vs. Wofford (Baseball) (02.18 5:30PM ET/2:30PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 034: Tue 2/18 - ESPN FC (Soccer) (02.18 5:30PM ET/2:30PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 035: #10 Florida vs. Jacksonville (Baseball) (02.18 6PM ET/3PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 036: #10 Johns Hopkins vs. #16 Loyola Maryland (Lacrosse) (02.18 6PM ET/3PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 037: Rhode Island vs. VCU (Basketball) (01.15 6PM ET/3PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 038: #8 Georgia vs. Kennesaw State (Baseball) (02.18 6PM ET/3PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 039: #8 Texas Tech vs. North Texas (Softball) (02.18 6PM ET/3PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 040: Georgia Tech vs. Georgia Southern (Baseball) (02.18 6PM ET/3PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 041: Hampton vs. VMI (Lacrosse) (02.18 6PM ET/3PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 042: Northwestern State vs. Louisiana Tech (Softball) (02.18 6PM ET/3PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 043: Roberts Wesleyan vs. George Mason (M Volleyball) (Volleyball) (02.18 6PM ET/3PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 044: West Georgia vs. North Alabama (Basketball) (02.18 6PM ET/3PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 045: Austin Peay vs. Bellarmine (Basketball) (02.18 6:30PM ET/3:30PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 046: Jacksonville vs. Florida Gulf Coast (Basketball) (02.18 6:30PM ET/3:30PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 047: Miami (OH) vs. Eastern Michigan (Basketball) (02.18 6:30PM ET/3:30PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 048: South Florida vs. Charlotte (Basketball) (02.18 6:30PM ET/3:30PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 049: Tennessee State vs. UT Martin (Basketball) (02.18 6:30PM ET/3:30PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 050: #18 Mississippi State vs. Southern Miss (Baseball) (02.18 7PM ET/4PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 051: Ball State vs. Toledo (Basketball) (02.18 7PM ET/4PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 052: Central Arkansas vs. Queens University (Basketball) (02.18 7PM ET/4PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 053: Central Michigan vs. Ohio (Basketball) (02.18 7PM ET/4PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 055: Lipscomb vs. Eastern Kentucky (Basketball) (02.18 7PM ET/4PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 056:</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 057: North Dakota vs. East Texas A&amp;M (Softball) (02.18 7PM ET/4PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 058: North Florida vs. Stetson (Basketball) (02.18 7PM ET/4PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 059: Northern Illinois vs. Akron (Basketball) (02.18 7PM ET/4PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 060: UT Rio Grande Valley vs. #20 Dallas Baptist (Baseball) (02.18 7PM ET/4PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 061: Western Michigan vs. Buffalo (Basketball) (02.18 7PM ET/4PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 062:</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 063: New Orleans vs. Tulane (Baseball) (02.18 7:30PM ET/4:30PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 064: UCF vs. Kansas (Basketball) (02.18 7:30PM ET/4:30PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 065: UTSA vs. Baylor (Baseball) (02.18 7:30PM ET/4:30PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 066: #12 Texas Tech vs. TCU (Basketball) (02.18 8PM ET/5PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 068: Colorado vs. #10 Iowa State (Basketball) (02.18 8PM ET/5PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 069: Florida Atlantic vs. Rice (Basketball) (02.18 8PM ET/5PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 070: Tennessee State vs. UT Martin (Basketball) (02.18 8:30PM ET/5:30PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 071: Tue 2/18 - Futbol W (Soccer) (02.18 8:30PM ET/5:30PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 072: #20 Oklahoma State vs. Utah (Basketball) (02.18 9PM ET/6PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 073: Arizona State vs. Grand Canyon (Softball) (02.18 9PM ET/6PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 074: Long Beach State vs. Loyola Marymount (Baseball) (02.18 9PM ET/6PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 075: San Diego State vs. UC San Diego (Baseball) (02.18 9PM ET/6PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 076: USC vs. UC Irvine (Baseball) (02.18 9PM ET/6PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 078:</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 079:</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 080:</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 081:</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN1.uk" site_id="DAZN1">ES| DAZN 1 ESPAÑA FHD</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN1.uk" site_id="DAZN1">ES| DAZN 1 ESPAÑA HEVC</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN1.uk" site_id="DAZN1">ES| DAZN 1 ESPAÑA SD</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN1.uk" site_id="DAZN1">ES| DAZN 1 ESPAÑA HD</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN2.uk" site_id="DAZN2">ES| DAZN 2 ESPAÑA FHD</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN2.uk" site_id="DAZN2">ES| DAZN 2 ESPAÑA HD</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN2.uk" site_id="DAZN2">ES| DAZN 2 ESPAÑA HEVC</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN2.uk" site_id="DAZN2">ES| DAZN 2 ESPAÑA SD</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN3.uk" site_id="DAZN3">ES| DAZN 3 ESPAÑA FHD</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN3.uk" site_id="DAZN3">ES| DAZN 3 ESPAÑA HD</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN3.uk" site_id="DAZN3">ES| DAZN 3 ESPAÑA HEVC</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN3.uk" site_id="DAZN3">ES| DAZN 3 ESPAÑA SD</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN4.uk" site_id="DAZN4">ES| DAZN 4 ESPAÑA FHD</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN4.uk" site_id="DAZN4">ES| DAZN 4 ESPAÑA HD</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN4.uk" site_id="DAZN4">ES| DAZN 4 ESPAÑA HEVC</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN4.uk" site_id="DAZN4">ES| DAZN 4 ESPAÑA SD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="ElToroTV.es" site_id="11049">ES| ONE TORO TV FHD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="ElToroTV.es" site_id="11049">ES| ONE TORO TV HD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="ElToroTV.es" site_id="11049">ES| ONE TORO TV HEVC</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="ElToroTV.es" site_id="11049">ES| ONE TORO TV SD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN2.us" site_id="espn2-us">DHD |  ESPN 2 USA</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="GolfChannel.us" site_id="golf-cnl-us">DHD |  GOLF CHANNEL USA</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSPORTSXTRA.us" site_id="1ACADCF1-DFAC-480B-872C-53D51FE1B45D">DHD | BEIN SPORTS  EXTRA USA</channel>
+  <channel site="reportv.com.ar" lang="es" xmltv_id="DirecTVSportsPlus.us" site_id="7000">DHD | DIRECTV SPORTS +</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="ESPNPremium.ar" site_id="ar#fox-sports-premium">DHD | ESPN PREMIUM CH</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="FoxSports.ar" site_id="ar#fox-sports-hd">DHD | FOX SPORTS 1 ARG</channel>
+  <channel site="entertainment.ie" lang="en" xmltv_id="SkySportsPremierLeague.uk" site_id="sky-sports-premier-league-roi">DHD | SKY SPORTS PREMIER LEAGUE</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="TNTSports.ar" site_id="ar#tnt-sports">DHD | TNT SPORTS CH</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="WinSports.co" site_id="co#win-sports-hd">DHD | WIN SPORTS +</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">Dep. +3Mbps | ESPN 1 MX HD</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="FoxSports1.us" site_id="9233008440">Dep. +3Mbps | FOX SPORTS 1 MX HD</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="FoxSports2.us" site_id="9200009884">Dep. +3Mbps | FOX SPORTS 2 MX HD</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="FoxSports1.us" site_id="9233008440">Dep. +3Mbps | FOX SPORTS US HD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 1 FHD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 1 HD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 1 HEVC</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 1 SD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 2 HD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 2 HEVC</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 2 SD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 3 FHD</channel>
+  <channel site="programacion.tcc.com.uy" lang="es" xmltv_id="ClaroSports.mx" site_id="265">DHD | CLARO SPORTS 1</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="FoxSports.ar" site_id="ar#fox-sports-hd">DHD | FOX SPORTS 2 ARG</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="FoxSports.ar" site_id="ar#fox-sports-hd">DHD | FOX SPORTS 3 ARG</channel>
+  <channel site="tv.blue.ch" lang="en" xmltv_id="Motorsporttv.fr" site_id="1723">DHD | MOTORSPORT</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="VamosporMovistarPlusPlus.es" site_id="_vamos">DHD | MOVISTAR + VAMOS</channel>
+  <channel site="tvhebdo.com" lang="fr" xmltv_id="WWENetwork.ca" site_id="wwe/WWE">DHD | USA: WWE NETWORK</channel>
+  <channel site="programacion.tcc.com.uy" lang="es" xmltv_id="ClaroSports.mx" site_id="265">Dep. +3Mbps | CLARO SPORTS HD</channel>
+  <channel site="tvhebdo.com" lang="fr" xmltv_id="WWENetwork.ca" site_id="wwe/WWE">Dep. +3Mbps | WWE NETWORK HD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPNLatinAmerica.us" site_id="espn_chile">ESPN 1 ARGENTINA</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPN2LatinAmerica.us" site_id="espn_2_colombia">ESPN 2 ARGENTINA</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPN3LatinAmerica.us" site_id="espn_3_sur">ESPN 3 ARGENTINA</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPN4LatinAmerica.us" site_id="espn_4_norte">ESPN 4 ARGENTINA</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaHypermotion.es" site_id="11083">ESPN PLUS 002: En EspaÃ±ol - Mar 2/18 - LALIGA Hypermotion Highlights Show (Soccer) (02.18 9AM ET/6AM PT)</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaHypermotion.es" site_id="11083">ESPN PLUS 003: Tue 2/18 - LALIGA Hypermotion Highlights Show (Soccer) (02.18 9AM ET/6AM PT)</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="LaLigaTVporMovistarPlusPlus.es" site_id="movistar_laliga">ESPN PLUS 005: En EspaÃ±ol - Mar 2/18 - LALIGA World (Soccer) (02.18 11AM ET/8AM PT)</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="LaLigaTVporMovistarPlusPlus.es" site_id="movistar_laliga">ESPN PLUS 006: Tue 2/18 - LALIGA World (Soccer) (02.18 11AM ET/8AM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 007: Kent State vs. Bowling Green (Basketball) (02.18 12:05PM ET/9:05AM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 008: #14 Navy vs. #20 Richmond (Lacrosse) (02.18 2PM ET/11AM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 009: #8 Yale vs. Quinnipiac (Lacrosse) (02.18 2PM ET/11AM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 010: Brown vs. Boston University (Lacrosse) (02.18 2PM ET/11AM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 011: Colgate vs. #15 Harvard (Lacrosse) (02.18 2PM ET/11AM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 012: Coppin State vs. George Washington (Softball) (02.18 2PM ET/11AM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 013: Evansville vs. Lipscomb (Baseball) (02.18 2PM ET/11AM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 014: Akron vs. Incarnate Word (Softball) (02.18 3PM ET/12PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 015: Alabama A&amp;M vs. UAB (Baseball) (02.18 3PM ET/12PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 016: Dartmouth vs. Massachusetts (Lacrosse) (02.18 3PM ET/12PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 018: FC Barcelona vs. Rayo Vallecano (LALIGA) (Soccer) (02.17 2:30PM ET/11:30AM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 019: Radford vs. James Madison (Baseball) (02.18 3PM ET/12PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 020: Rider vs. Bucknell (Lacrosse) (02.18 3PM ET/12PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 021: App State vs. High Point (Baseball) (02.18 4PM ET/1PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 022: Missouri State vs. Central Arkansas (Baseball) (02.18 4PM ET/1PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 023: Maryland-Eastern Shore vs. Howard (Basketball) (02.17 3PM ET/12PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 024: New Hampshire vs. Dartmouth (Lacrosse) (02.18 4PM ET/1PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 025: New Mexico State vs. Arizona (Baseball) (02.18 4PM ET/1PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 026: Samford vs. Jacksonville State (Baseball) (02.18 4PM ET/1PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 027: South Carolina vs. Winthrop (Baseball) (02.18 4PM ET/1PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 028: St. Bonaventure vs. Robert Morris (Lacrosse) (02.18 4PM ET/1PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 029: Texas Southern vs. Louisiana (Baseball) (02.18 4PM ET/1PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 030: UTSA vs. Texas A&amp;M-Corpus Christi (Softball) (02.18 4PM ET/1PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 031: #13 Wake Forest vs. UNC Greensboro (Baseball) (02.18 5PM ET/2PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="GolfChannel.us" site_id="golf-cnl-us">ESPN PLUS 054: Jupiter Links Golf Club vs. New York Golf Club (Golf) (02.18 7PM ET/4PM PT)</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="BYUTV.us" site_id="pe#byutv">ESPN PLUS 067: BYU Tipoff (Basketball) (02.18 8PM ET/5PM PT)</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="BYUTV.us" site_id="pe#byutv">ESPN PLUS 077: BYU Wrap-Up (Basketball) (02.18 11PM ET/8PM PT)</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN1.uk" site_id="DAZN1">ES| DAZN 01</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN2.uk" site_id="DAZN2">ES| DAZN 02</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN3.uk" site_id="DAZN3">ES| DAZN 03</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN4.uk" site_id="DAZN4">ES| DAZN 04</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN5.uk" site_id="DAZN5">ES| DAZN 05</channel>
+  <channel site="vodafone.pt" lang="pt" xmltv_id="DAZN6.uk" site_id="3890">ES| DAZN 06</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 2 FHD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 3 HD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 3 HEVC</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 3 SD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 4 FHD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 4 HD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 4 SD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 5 FHD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 5 HD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 5 SD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 6 FHD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 6 HD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 6 SD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 7 FHD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 7 HD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 7 SD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">ES| M+ DEPORTES 8 SD</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="FoxSports2.us" site_id="9200009884">DHD |  FOX SPORTS 2 MX</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="FoxSports1.us" site_id="9233008440">DHD | FOX SPORTS 1 MX</channel>
+  <channel site="directv.com.uy" lang="es" xmltv_id="GolfChannelLatinAmerica.us" site_id="628#GOLF">DHD | GOLF CHANNEL LATAM</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="TyCSportsLatinAmerica.ar" site_id="cl#tyc-sports">DHD | TYC INTERNACIONAL</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPN2LatinAmerica.us" site_id="espn_2_colombia">Dep. +3Mbps | ESPN 2 MX HD</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="FoxSports3LatinAmerica.us" site_id="ar#fox-sports-3">Dep. +3Mbps | FOX SPORTS 3 MX HD</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="FoxSports.ar" site_id="ar#fox-sports-hd">ARG | Directv Sports 1 HD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPN2LatinAmerica.us" site_id="espn_2_colombia">DHD |  ESPN 2 MX</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPN3LatinAmerica.us" site_id="espn_3_sur">DHD |  ESPN 3 COL</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="FoxSports3LatinAmerica.us" site_id="ar#fox-sports-3">DHD |  FOX SPORTS 3 MX</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINSports.qa" site_id="sports#2">DHD | BEIN SPORTS Ñ</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPNLatinAmerica.us" site_id="espn_chile">DHD | ESPN 1 ARG</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPNLatinAmerica.us" site_id="espn_chile">DHD | ESPN 1 MX</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPN2LatinAmerica.us" site_id="espn_2_colombia">DHD | ESPN 2 ARG</channel>
+  <channel site="meuguia.tv" lang="pt" xmltv_id="ESPN.br" site_id="ESB">DHD | ESPN 2 BRA</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPN2LatinAmerica.us" site_id="espn_2_colombia">DHD | ESPN 2 COL</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPN3LatinAmerica.us" site_id="espn_3_sur">DHD | ESPN 3 ARG</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPN3LatinAmerica.us" site_id="espn_3_sur">DHD | ESPN 3 MX</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPN4LatinAmerica.us" site_id="espn_4_norte">DHD | ESPN 4 ARG</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPN4LatinAmerica.us" site_id="espn_4_norte">DHD | ESPN 4 MX</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeonesporMovistarPlusPlus.es" site_id="1023">DHD | MOVISTAR LIGA DE CAMPEONES</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="TNTSports.ar" site_id="ar#tnt-sports">DHD | TNT SPORTS PREMIUM CH</channel>
+  <channel site="reportv.com.ar" lang="es" xmltv_id="DirecTVSportsPlus.us" site_id="7000">Dep. +3Mbps | DIRECTV SPORTS + HD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPN3LatinAmerica.us" site_id="espn_3_sur">Dep. +3Mbps | ESPN 3 HD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPN4LatinAmerica.us" site_id="espn_4_norte">Dep. +3Mbps | ESPN 4 HD</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="ESPNPremium.ar" site_id="ar#fox-sports-premium">Dep. +3Mbps | FOX SPORTS PREMIUM HD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LigadeCampeonesporMovistarPlusPlus.es" site_id="1023">Dep. +3Mbps | Movistar Liga De Campeones HD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPNLatinAmerica.us" site_id="espn_chile">ESPN 5 ARGENTINA</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPNLatinAmerica.us" site_id="espn_chile">ESPN 7 ARGENTINA</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 001: Invictus Games Vancouver Whistler 2025 Daily Show (February 17th) (02.18 2AM ET/11PM PT)</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ESPN PLUS 004: Tue 2/18 - LALIGA News (Soccer) (02.18 9AM ET/6AM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 017: F1 75 Live (Motor Sports) (02.18 3PM ET/12PM PT)</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">ESPN PLUS 100:</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="DAZNLaLiga.uk" site_id="dazn-laliga-es">ES| DAZN LA LIGA 1 FHD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="DAZNLaLiga.uk" site_id="dazn-laliga-es">ES| DAZN LA LIGA 1 HEVC</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| LALIGA+ 01 [EVENT ONLY]</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| LALIGA+ 02 [EVENT ONLY]</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| LALIGA+ 03 [EVENT ONLY]</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| LALIGA+ 04 [EVENT ONLY]</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| LALIGA+ 05 [EVENT ONLY]</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| LALIGA+ 06 [EVENT ONLY]</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="LaLigaTVporMovistarPlusPlus.es" site_id="movistar_laliga">ES| LALIGA+ 07 [EVENT ONLY]</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| LALIGA+ 08 [EVENT ONLY]</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="LaLigaTVporMovistarPlusPlus.es" site_id="movistar_laliga">ES| LALIGA+ 09 [EVENT ONLY]</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaTV.es" site_id="11129">ES| LALIGA+ 10 [EVENT ONLY]</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaHypermotion2.es" site_id="11084">ES| M+ LALIGA TV HYPERMOTION M2 FHD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaHypermotion2.es" site_id="11084">ES| M+ LALIGA TV HYPERMOTION M2 HD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaHypermotion2.es" site_id="11084">ES| M+ LALIGA TV HYPERMOTION M2 SD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaHypermotion3.es" site_id="11085">ES| M+ LALIGA TV HYPERMOTION M3 FHD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaHypermotion3.es" site_id="11085">ES| M+ LALIGA TV HYPERMOTION M3 HD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="LaLigaHypermotion3.es" site_id="11085">ES| M+ LALIGA TV HYPERMOTION M3 SD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPNLatinAmerica.us" site_id="espn_chile">HD | ESPN 1 COL</channel>
+  <channel site="dstv.com" lang="en" xmltv_id="SuperSportPremierLeague.za" site_id="nga#203">DHD |  SUPERSPORTS PREMIER LEAGUE UK</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">DHD | ESPN NEWS USA</channel>
+  <channel site="magticom.ge" lang="ka" xmltv_id="Formula.ge" site_id="63000">Dep. +3Mbps | FORMULA 1 HD</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="TyCSportsLatinAmerica.ar" site_id="cl#tyc-sports">Dep. +3Mbps | TYC SPORTS INTERNACIONAL HD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPN2LatinAmerica.us" site_id="espn_2_colombia">ESPN 6 ARGENTINA</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="FoxSports3LatinAmerica.us" site_id="ar#fox-sports-3">DHD | FOX SPORTS PREMIUM MX</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="DAZNLaLiga.uk" site_id="dazn-laliga-es">ES| DAZN LA LIGA 1 HD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="DAZNLaLiga.uk" site_id="dazn-laliga-es">ES| DAZN LA LIGA 1 SD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="DAZNLaLiga2.uk" site_id="dazn-laliga2-es">ES| DAZN LA LIGA 2 FHD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="DAZNLaLiga2.uk" site_id="dazn-laliga2-es">ES| DAZN LA LIGA 2 HD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="DAZNLaLiga2.uk" site_id="dazn-laliga2-es">ES| DAZN LA LIGA 2 HEVC</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="DAZNLaLiga2.uk" site_id="dazn-laliga2-es">ES| DAZN LA LIGA 2 SD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ESPN.us" site_id="espn-us">DHD |  ESPN U USA</channel>
+  <channel site="meuguia.tv" lang="pt" xmltv_id="ESPN.br" site_id="ESB">DHD | ESPN 5 BRA</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPNLatinAmerica.us" site_id="espn_chile">DHD | ESPN 6</channel>
+  <channel site="meuguia.tv" lang="pt" xmltv_id="ESPN.br" site_id="ESB">DHD | ESPN 6 BRA</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPNLatinAmerica.us" site_id="espn_chile">DHD | ESPN 7</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">DHD | MOVISTAR DEPORTES</channel>
+  <channel site="airtelxstream.in" lang="en" xmltv_id="FishTank.us" site_id="DISTROTV_LIVETVCHANNEL_654">Dep. +3Mbps | FISH NETWORK HD</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN1.uk" site_id="DAZN1">ES| DAZN F1 ESPAÑA SD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="LaLigaTVporMovistarPlusPlus.es" site_id="movistar_laliga">ES| M+ LALIGATV BAR FHD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="LaLigaTVporMovistarPlusPlus.es" site_id="movistar_laliga">ES| M+ LALIGATV BAR HD</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="LaLigaTVporMovistarPlusPlus.es" site_id="movistar_laliga">ES| M+ LALIGATV BAR HEVC</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPNLatinAmerica.us" site_id="espn_chile">DHD | ESPN 1 CHI</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPNLatinAmerica.us" site_id="espn_chile">DHD | ESPN 5 ARG</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="Mega.es" site_id="mega_espana">DHD | MEGA (CHIRINGUITO DE JUGONES)</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="TNTSports3.uk" site_id="1952/tnt-sports-3">DHD | TNT SPORTS 3 CH</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="ESPNLatinAmerica.us" site_id="espn_chile">Dep. +3Mbps | ESPN 1 ARG</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="TSNTheOcho.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6685bf522deb7f424133b087">Dep. +3Mbps | TSN 1 HD</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="TSNTheOcho.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6685bf522deb7f424133b087">Dep. +3Mbps | TSN 2 HD</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">DHD | S.P.O.R.T.V 1 POR</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">DHD | S.P.O.R.T.V 2 POR</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es" site_id="377">DHD | S.P.O.R.T.V PLUS POR</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN1.uk" site_id="DAZN1">ES| DAZN ACB 1</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN2.uk" site_id="DAZN2">ES| DAZN ACB 2</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN3.uk" site_id="DAZN3">ES| DAZN ACB 3</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="DAZN4.uk" site_id="DAZN4">ES| DAZN ACB 4</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="ZonaDAZN.it" site_id="DTH#11402">DHD | ZONA FUTBOL</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="TSNTheOcho.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6685bf522deb7f424133b087">DHD | TSN 1 CAN</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="TSNTheOcho.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6685bf522deb7f424133b087">DHD | TSN 2 CAN</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="TSNTheOcho.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6685bf522deb7f424133b087">DHD | TSN 3 CAN</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="TSNTheOcho.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6685bf522deb7f424133b087">DHD | TSN 4 CAN</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="TSNTheOcho.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6685bf522deb7f424133b087">DHD | TSN 5 CAN</channel>
+</channels>

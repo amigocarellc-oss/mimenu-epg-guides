@@ -1,0 +1,49 @@
+name: EPG Nightly Grab
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Daily 6am UTC
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  grab-epg:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Pull iptv-org/epg Docker image
+        run: docker pull ghcr.io/iptv-org/epg:master
+      
+      - name: Run EPG grab
+        run: |
+          docker run --rm \
+            -v $PWD:/data \
+            ghcr.io/iptv-org/epg:master \
+            npm run grab -- \
+              --channels=/data/channels.xml \
+              --output=/data/guide.xml \
+              --days=3 \
+              --timeout=60000
+      
+      - name: Verify guide.xml generated
+        run: |
+          if [ ! -f guide.xml ]; then
+            echo "ERROR: guide.xml not generated"
+            exit 1
+          fi
+          echo "guide.xml size: $(wc -c < guide.xml) bytes"
+          echo "guide.xml lines: $(wc -l < guide.xml)"
+      
+      - name: Commit and push guide.xml
+        run: |
+          git config user.name "epg-bot"
+          git config user.email "bot@mimenu.pro"
+          git add guide.xml
+          if git diff --cached --quiet; then
+            echo "No changes to guide.xml"
+          else
+            git commit -m "EPG update $(date -u +%Y-%m-%d)"
+            git push
+          fi
