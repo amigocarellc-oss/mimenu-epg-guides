@@ -16,7 +16,7 @@ jobs:
       - name: Pull iptv-org/epg Docker image
         run: docker pull ghcr.io/iptv-org/epg:master
       
-      - name: Split channels into batches of 30
+      - name: Split channels into batches of 10
         run: |
           python3 << 'EOF'
           import xml.etree.ElementTree as ET
@@ -26,7 +26,7 @@ jobs:
           
           print(f"Total channels: {len(channels)}")
           
-          batch_size = 30
+          batch_size = 10
           for i in range(0, len(channels), batch_size):
             batch = channels[i:i+batch_size]
             root = ET.Element('channels')
@@ -55,7 +55,7 @@ jobs:
               npm run grab -- \
                 --channels=/data/$batch_file \
                 --output=/data/guide-$batch_file \
-                --days=3 \
+                --days=1 \
                 --timeout=60000
             
             echo "Batch $batch_count complete. Sleeping 10s to force GC..."
